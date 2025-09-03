@@ -1,3 +1,8 @@
 source "https://rubygems.org"
-gem 'jekyll-admin', group: :jekyll_plugins
 
+gem "jekyll"
+gem "jekyll-theme-minimal"
+
+group :jekyll_plugins do
+  gem "jekyll-admin"
+end
