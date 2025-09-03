@@ -2,3 +2,11 @@ theme: jekyll-theme-minimal
 title: James's homepage
 description: Bookmark this to keep an eye on my project updates!
 plugins: jekyll-admin
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
